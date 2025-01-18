@@ -1,7 +1,26 @@
-<?php
-// Include the header file
-include 'includes/header.php';
-?>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة صحة</title>
+    <link rel="stylesheet" href="./css/style.css"> <!-- Ensure path is correct -->
+</head>
+<body>
+<header>
+    <div class="container">
+        <img src="./images/logo.svg" alt="Logo of Seha platform" class="logo">
+        <nav>
+            <a href="#">الخدمات</a>
+            <a href="#">الاستعلامات</a>
+        </nav>
+        <div class="auth-buttons">
+            <a href="login.php" class="btn">تسجيل الدخول</a>
+            <a href="register.php" class="btn">إنشاء حساب</a>
+        </div>
+    </div>
+</header>
+
 <main>
     <!-- Hero Section -->
     <section class="hero">
@@ -34,7 +53,32 @@ include 'includes/header.php';
     </section>
 </main>
 
-<?php
-// Include the footer file
-include 'includes/footer.php';
-?>
+<footer>
+    <div class="footer-container">
+        <div class="footer-top">
+            <img src="assets/ministry-logo.png" alt="Ministry of Health" class="footer-logo">
+            <img src="assets/lean-logo.png" alt="Lean" class="footer-logo">
+        </div>
+        <p>منصة صحة معتمدة من قبل وزارة الصحة © 2025</p>
+        <div class="footer-links">
+            <a href="#">الرئيسية</a>
+            <span>|</span>
+            <a href="#">الأسئلة الشائعة</a>
+            <span>|</span>
+            <a href="#">سياسة الخصوصية وشروط الاستخدام</a>
+            <span>|</span>
+            <a href="#">دليل الاستخدام</a>
+        </div>
+        <div class="footer-contact">
+            <p>تواصل معنا</p>
+            <p>920002005 | support@seha.sa</p>
+        </div>
+        <div class="footer-social">
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
